@@ -7,8 +7,6 @@ An adblocker using the systemless magisk module install
  `hosts`
  - Then follow the prompts to install host file of choice
 
-##[Support](https://forum.xda-developers.com/apps/magisk/magisk-unified-hosts-adblocker-t3559019)
-
 ## Changelog
 v1.0
  - Initial release
