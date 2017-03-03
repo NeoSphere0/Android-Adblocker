@@ -1,5 +1,5 @@
-# Unified Hosts Adblock
-Small adblock magisk module using unified host files from Steven Black [(Check out his github for more information)](https://github.com/StevenBlack/hosts)  
+# Android Hosts Adblock
+An adblocker using the sustemless magisk module install  
 ##Usage: 
 #### First Enable Systemless Hosts in Magisk Manager
  - Open terminal then type:  
@@ -13,11 +13,7 @@ Small adblock magisk module using unified host files from Steven Black [(Check o
 v1.0
  - Initial release
 
-v1.1 
- - Changed from using curl to wget and built in wget (not all roms have curl apparently)
-
-v1.2
- - Made minor changes to Readme, removed support and donate links from module.prop, and removed changelog to meet standards of magisk manager 4.2 update
-
-v1.3
- - Removed broken disable option and added directions for disabling hosts mod
+## Thanks & Credits
+For the hosts file: http://winhelp2002.mvps.org
+For the magisk module template by Zackptg5: https://github.com/Zackptg5 , https://github.com/Zackptg5/Unified-Hosts-Adblock
+For the master branch and the inital creater of the module which i forked from by Zackptg5: https://github.com/Zackptg5, https://github.com/Zackptg5/Unified-Hosts-Adblock
