@@ -1,63 +1,21 @@
 while [ 1 ]
 do
-	echo "Unified Hosts Adblocker"
-	echo "You can use any combination of the letters below"
-	echo "For example: inputting 'fps' would yield master+fakenews+porn+social"
+	echo "Android Adblocker"
 	echo "--------------------------------"
-	echo "'master' for adware+malware"
-	echo "'f' for master+fakenews"
-	echo "'g' for master+gambling"
-	echo "'p' for master+porn"
-	echo "'s' for master+social"
+	echo "'Update to update/ install the mvps hosts file"
 	echo "To disable, just toggle the enable systemless hosts in magisk manager"
-	echo -n "'q' to quit: "
+	echo -n "'Quit' to Quit: "
 	read input
-	if [ "$input" = "master" ]
+	if [ "$input" = "Master" ]
 		then
 		cd /magisk/.core
-		wget -O hosts --no-check-certificate https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
-	elif [ "$input" = "f" -o "$input" = "fg" -o "$input" = "fgp" -o "$input" = "fgps" -o "$input" = "fgs" -o "$input" = "fp" -o "$input" = "fps" -o "$input" = "fs" -o "$input" = "g" -o "$input" = "gp" -o "$input" = "gps" -o "$input" = "gs" -o "$input" = "p" -o "$input" = "ps" -o "$input" = "s" ]
-		then
-		cd /magisk/.core
-		case "$input" in
-			f) DIR="fakenews"
-			;;
-			fg) DIR="fakenews-gambling"
-			;;
-			fgp) DIR="fakenews-gambling-porn"
-			;;
-			fgps) DIR="fakenews-gambling-porn-social"
-			;;
-			fgs) DIR="fakenews-gambling-social"
-			;;
-			fp) DIR="fakenews-porn"
-			;;
-			fps) DIR="fakenews-porn-social"
-			;;
-			fs) DIR="fakenews-social"
-			;;
-			g) DIR="gambling"
-			;;
-			gp) DIR="gambling-porn"
-			;;
-			gps) DIR="gambling-porn-social"
-			;;
-			gs) DIR="gambling-social"
-			;;
-			p) DIR="porn"
-			;;
-			ps) DIR="porn-social"
-			;;
-			s) DIR="social"
-			;;
-		esac
-		wget -O hosts --no-check-certificate https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/$DIR/hosts
-	elif [ "$input" = "q" ]
+		wget -O hosts --no-check-certificate https://raw.githubusercontent.com/NeoSphere0/MVPS-Hosts-File/master/hosts
+	elif [ "$input" = "Quit" ]
 		then
 		break
 	elif
 		then
-		echo "Invalid input. Don't use any spaces between letters"
+		echo "Invalid input. Please either enter Update or Quit"
 	fi
 done
 echo "Done!"
