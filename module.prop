@@ -3,4 +3,4 @@ name=Android Adblocker
 version=v1.0
 versionCode=1.0
 author=NeoSphere
-description=Small adblock magisk module using host files from Steven Black (https://github.com/StevenBlack/hosts)
+description=An adblocker using the systemless magisk module install
