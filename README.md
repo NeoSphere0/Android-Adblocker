@@ -1,5 +1,5 @@
 # Android Hosts Adblock
-An adblocker using the sustemless magisk module install  
+An adblocker using the systemless magisk module install  
 ##Usage: 
 #### First Enable Systemless Hosts in Magisk Manager
  - Open terminal then type:  
