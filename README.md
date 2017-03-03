@@ -16,4 +16,4 @@ v1.0
 ## Thanks & Credits
 - For the hosts file: http://winhelp2002.mvps.org
 - For the magisk module template by Zackptg5: https://github.com/Zackptg5 , https://github.com/Zackptg5/Unified-Hosts-Adblock
-- For the master branch and the inital creater of the module which i forked from by Zackptg5: https://github.com/Zackptg5, https://github.com/Zackptg5/Unified-Hosts-Adblock
+- For the master branch and the inital creater of the module which i forked from, by Zackptg5: https://github.com/Zackptg5, https://github.com/Zackptg5/Unified-Hosts-Adblock
